@@ -9,6 +9,7 @@ function StartInterview({params}) {
    
     const [interviewData,setInterviewData]=useState();
     const [mockInterviewQuestion,setMockInterviewQuestion]=useState();
+    const [activeQuestionIndex,setActiveQuestionIndex]=useState(0);
     useEffect(()=>{
         GetInterviewDetails();
     },[]);
@@ -30,7 +31,7 @@ function StartInterview({params}) {
       <QuesetionSection  mockInterviewQuestion={mockInterviewQuestion}/>
 
       {/* video/ audio recording  */}
-
+ 
 
       </div>
     </div>
