@@ -30,7 +30,7 @@ export default function Page() {
         </a>
 
         <h2 className="mt-6 text-2xl font-bold text-white sm:text-3xl md:text-4xl">
-          Welcome to Squid 🦑
+          Welcome to AI Interview
         </h2>
 
         <p className="mt-4 leading-relaxed text-white/90">
@@ -64,7 +64,7 @@ export default function Page() {
           </a>
 
           <h1 className="mt-2 text-2xl font-bold text-gray-900 sm:text-3xl md:text-4xl">
-            Welcome to Squid 🦑
+            Welcome to AI Interview
           </h1>
 
           <p className="mt-4 leading-relaxed text-gray-500">
