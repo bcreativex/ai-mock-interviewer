@@ -19,6 +19,7 @@ function Interview({params}) {
    },[])
   
   //  used to get interview details by mockid/interviewid
+  
    const GetInterviewDetails=async()=>{
     const result=await db.select().from(MockInterview)
     .where(eq(MockInterview.mockId,params.interviewId))
